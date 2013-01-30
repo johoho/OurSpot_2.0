@@ -111,6 +111,7 @@ h1{
     margin: auto;
     padding-left, padding-right: 10px;
     padding-top: 75px;
+    padding-bottom: 400px;
 }
 
 header {
@@ -177,7 +178,7 @@ footer {
     color: #fff;
     font-size: 0.8em;
 
-    position: relative;
+    position: absolute;
     bottom: 0;
 }
 
@@ -305,13 +306,16 @@ footer nav a:hover {
     color: #fff;
     text-shadow: 3px 4px 5px rgb(80,80,80);
     font-size: 3em;
-    font-weight: bold; 
-    padding-top: 250px; 
+    font-weight: bold;  
+}
+
+#homeImgs h3{
+    padding-top: 320px;
 }
 
 /* ============ HOME Page - Steps 1 2 3 ================= */
 .ch-grid {
-    margin: 300px 0 0 0;
+    margin: 300px 0 100px 0;
     padding: 0;
     list-style: none;
     display: block;
@@ -429,11 +433,12 @@ footer nav a:hover {
 /* ============ HOME Page - packages ================= */
 #packages h3 {
     color: rgb(159,206,55);
+    margin-top: 0;
 }
 
 #packages {
     position: relative;
-    top: -200px;
+    padding-top: 40px;
 }
 
 #packages a, #packages figure {

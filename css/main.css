@@ -206,6 +206,13 @@ footer nav a:visited {
 footer nav a:hover {
     color: #576C27;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* ========== HOME PAGE, CAMPSITE PAGE ================= */
+#homeImgs, #campsiteImgs {
+=======
+>>>>>>> Contact Page & Campsite Page html added
 
 /* ========== GREEN BUTTON ============== */
 
@@ -307,6 +314,7 @@ footer nav a:hover {
 
 /* ========== HOME PAGE ================= */
 #homeImgs {
+>>>>>>> 0dac77679a35b7f1d53512f73efbb02836254981
     width: 100%;
     height: 600px;
     position: absolute;
@@ -318,7 +326,7 @@ footer nav a:hover {
 #homeImgs h3, #packages h3 {
     font-family:'AbadiMT-CondensedExtraBold';
     color: #fff;
-    text-shadow: 3px 4px 5px rgb(80,80,80);
+/*    text-shadow: 3px 4px 5px rgb(80,80,80);*/
     font-size: 3em;
     font-weight: bold;  
 }
@@ -445,14 +453,22 @@ footer nav a:hover {
     opacity: 1;
 }
 /* ============ HOME Page - packages ================= */
-#packages h3 {
+#packages h3{
     color: rgb(159,206,55);
     margin-top: 0;
 }
 
 #packages {
     position: relative;
+<<<<<<< HEAD
     padding-top: 40px;
+=======
+<<<<<<< HEAD
+    top: -250px;
+=======
+    padding-top: 40px;
+>>>>>>> 0dac77679a35b7f1d53512f73efbb02836254981
+>>>>>>> Contact Page & Campsite Page html added
 }
 
 #packages a, #packages figure {
@@ -465,6 +481,45 @@ footer nav a:hover {
     height: 230px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* ============ CONTACT PAGE ================= */
+/**{
+    border: 1px solid red;
+}*/
+iframe {
+    width: 100%;
+    height: 600px;
+}
+#contactUs {
+    position: relative;
+    top: -250px;
+}
+#contactUs h3 {
+    color: rgb(159,206,55);
+    font-family:'AbadiMT-CondensedExtraBold';
+    font-size: 3em;
+    font-weight: bold; 
+    width: 100%;
+    text-align: center;
+}
+
+#contactDeets {
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 5%;
+    color: rgb(159,206,55);
+}
+
+#contact-form {
+    width: 40%;
+    float: right;
+    padding: 5%;
+}
+=======
+>>>>>>> Contact Page & Campsite Page html added
 
 /*===========================================================================
                         Map Page
@@ -844,6 +899,10 @@ footer nav a:hover {
 
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> 0dac77679a35b7f1d53512f73efbb02836254981
+>>>>>>> Contact Page & Campsite Page html added
 
 /* ==========================================================================
    Media Queries

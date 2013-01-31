@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>
+            OurSpot—For All Your Camping Needs
+        </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <script src="js/vendor/modernizr-2.6.2.min.js" type="text/javascript">
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <img src="img/logo.png" alt="OurSpot">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">campsites</a>
+                    </li>
+                    <li>
+                        <a href="#">gear hire</a>
+                    </li>
+                    <li id="navlogo">
+                        <a href="#"><img src="img/logo_icon.png" alt="home"></a>
+                    </li>
+                    <li>
+                        <a href="#">cart</a>
+                    </li>
+                    <li>
+                        <a href="#">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header><!--==================== Full Width Images  =============================-->
+        <iframe width="1024" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.nz/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Media+Design+School,+Albert+Street,+Auckland&amp;aq=0&amp;oq=media+design+&amp;sll=-36.863023,174.865469&amp;sspn=0.948206,2.108002&amp;t=h&amp;ie=UTF8&amp;hq=Media+Design+School,&amp;hnear=Albert+St,+Auckland&amp;cid=15089202811003734988&amp;ll=-36.848101,174.763727&amp;spn=0.04121,0.087891&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br>
+        <small><a href="https://maps.google.co.nz/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Media+Design+School,+Albert+Street,+Auckland&amp;aq=0&amp;oq=media+design+&amp;sll=-36.863023,174.865469&amp;sspn=0.948206,2.108002&amp;t=h&amp;ie=UTF8&amp;hq=Media+Design+School,&amp;hnear=Albert+St,+Auckland&amp;cid=15089202811003734988&amp;ll=-36.848101,174.763727&amp;spn=0.04121,0.087891&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+        <div class="wrapper clearfix">
+            <div class="line"></div>
+            <div class="radialouter"></div>
+            <div id="contactUs">
+            <h3>
+                contact us
+            </h3>
+            <div id="contactDeets">
+                <p>
+                    Head Office:
+                </p>
+                <p>
+                    Seejays Holdings Ltd.
+                </p>
+                <p>
+                    Albert Street
+                </p>
+                <p>
+                    PO BOX 12345
+                </p>
+                <p>
+                    Auckland
+                </p>
+                <p>
+                    New Zealand
+                </p><br>
+                <p>
+                    Freephone: 0800 our spot (862 267)
+                </p>
+                <p>
+                    Phone: +64 9 123 4567
+                </p>
+                <p>
+                    Fax: +64 9 765 4321
+                </p>
+            </div>
+            <form id="contact-form" class="contact-form" action="%3C?php%20echo%20admin_url('admin-ajax.php')?%3E" method="post">
+                <p id="status"></p>
+                <div>
+                    <select>
+                        <option id="ops_20" value="Enquiry Type">
+                            Enquiry Type
+                        </option>
+                        <option id="ops_21" value="booking">
+                            Booking a Campsite
+                        </option>
+                        <option id="ops_22" value="Gear Hire">
+                            Gear Hire
+                        </option>
+                        <option id="ops_23" value="Urgent">
+                            Urgent
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    <label for="firstName">First Name</label> <input type="text" id="firstName" name="firstName">
+                </div>
+                <div>
+                    <label for="firstName">Last Name</label> <input type="text" id="LastName" name="LastName">
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label>         <input type = "text"
+               value = "(000) 000-0000"
+               id = "txtPhone" />
+                </div>
+                                <div>
+                    <label for="email">Email</label> <input type="text" id="email" name="email">
+                </div>
+                <div>
+                    <textarea name="message" id="message" rows="10">
+                 Message Here
+</textarea>
+                </div>
+                <div>
+                    <select>
+                        <option id="ops_30" value="contactMethod">
+                            Contact me via
+                        </option>
+                        <option id="ops_31" value="byEmail">
+                            Email Me
+                        </option>
+                        <option id="ops_32" value="byPhone">
+                            Call Me
+                        </option>
+                    </select>
+                </div>
+
+                        <div><input type = "checkbox"
+                                       id = "chkNewsletter" 
+                                       value = "newsletter" />
+                                <label>Subscribe to Newsletter</label></div>
+                <div>
+                    <input id="reset" class="button" type="reset" value="Reset">
+                    <label>&nbsp;</label> 
+                    <input class="button" type="submit" value="Send"> 
+                </div><input id="spam" class="hidden" name="spam" type="text" value=""> <input name="action" type="hidden" value="sendMail">
+            </form>
+        </div> <!-- ======== CONTACT US DIV ENDS ========================-->
+        </div><!-- ================= WRAPPER DIV ENDS ====================== -->
+        <footer class="centerAlign">
+            <a href="#"><img id="footerLogo" src="img/logo.png" alt="home"></a>
+            <nav>
+                <a href="#">campsites</a> <a href="#">gear hire</a> <a href="#">packages</a> <a href="#">cart</a> <a href="#">contact us</a> <a href="#">terms &amp; conditions</a>
+            </nav><img src="img/credit_card.gif" alt="we accept all major credit cards">
+            <p id="disclaimer">
+                © Seejays, 2013. This project was built for educational purposes. The brand represents a fictional company.
+            </p>
+        </footer><script src="//ajax.googleapis.com/ajax/vendor/jquery/1.9.0/jquery.min.js" type="text/javascript">
+</script><script type="text/javascript">
+window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')
+        </script><script src="js/vendor/jquery.backstretch.js" type="text/javascript">
+</script><script src="js/vendor/waypoints.min.js" type="text/javascript">
+</script><script src="js/plugins.js" type="text/javascript">
+</script><script src="js/main.js" type="text/javascript">
+</script>
+    </body>
+</html>

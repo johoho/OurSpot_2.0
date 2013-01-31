@@ -742,6 +742,19 @@ footer nav a:hover {
 
 .tablegrad td{
     padding: 10px 0;
+    font-family: 'AbadiMT-CondensedLight';
+    font-size: 20px;
+    font-weight: 100;
+    color: #576C27;
+}
+
+.carttable th{
+    text-align: left;
+    font-family: 'AbadiMT-CondensedLight';
+    font-size: 25px;
+    font-weight: 100;
+    color: #9FCE37;
+    letter-spacing: 1px;
 }
 
 .tablegrad div{
@@ -754,6 +767,43 @@ footer nav a:hover {
 .carttable tr td:nth-child(2){
     width: 28%;
 }
+
+.carttable img{
+    display: block;
+    border: 2px solid #95C11F;
+    margin-top: 10px;
+}
+
+.remove{
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: 0 auto;
+    background-image: url(../img/cart_img/remove.png);
+    background-repeat: no-repeat;
+}
+
+.remove:hover{
+    background-position: 1px 1px;
+}
+
+.checkouttotal{
+    position: relative;
+    padding-top: 10px;
+}
+
+.checkouttotal .radialouter{
+    top:0;
+}
+
+.cartform{
+    float: right;
+}
+
+.checkouttotal .greenbutton{
+    padding: 10px 40px 5px 30px;
+}
+
 
 
 
@@ -873,6 +923,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66cbed7b', e
 
 .clearfix {
     *zoom: 1;
+}
+
+.floatleft{
+    float: left;
+}
+
+.floatright{
+    float: right;
 }
 
 /* ==========================================================================

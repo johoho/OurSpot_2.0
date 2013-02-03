@@ -973,6 +973,12 @@ label, input, select {
 @media only screen and (min-width: 35em) {
 
 }
+@media only screen and (max-width: 801px){
+    #infoColumn, #puchaseColumn {
+        padding: 30px 10px;
+        width: 40%;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     header {
@@ -1068,8 +1074,14 @@ label, input, select {
     .checkouttotal .greenbutton{
         float: none;
     }
-
-
+    #campsiteDeets {
+       margin-top: 50px;
+    }
+    
+    #infoColumn, #purchaseColumn {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 @media print,

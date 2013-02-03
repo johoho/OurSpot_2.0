@@ -59,9 +59,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/**{
-    border: 1px solid red;
-}*/
 
 /* ========== FONTS ================= */
 @font-face {
@@ -206,13 +203,6 @@ footer nav a:visited {
 footer nav a:hover {
     color: #576C27;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-/* ========== HOME PAGE, CAMPSITE PAGE ================= */
-#homeImgs, #campsiteImgs {
-=======
->>>>>>> Contact Page & Campsite Page html added
 
 /* ========== GREEN BUTTON ============== */
 
@@ -313,8 +303,7 @@ footer nav a:hover {
 }
 
 /* ========== HOME PAGE ================= */
-#homeImgs {
->>>>>>> 0dac77679a35b7f1d53512f73efbb02836254981
+#homeImgs, #campsiteImgs {
     width: 100%;
     height: 600px;
     position: absolute;
@@ -460,15 +449,9 @@ footer nav a:hover {
 
 #packages {
     position: relative;
-<<<<<<< HEAD
     padding-top: 40px;
-=======
-<<<<<<< HEAD
     top: -250px;
-=======
     padding-top: 40px;
->>>>>>> 0dac77679a35b7f1d53512f73efbb02836254981
->>>>>>> Contact Page & Campsite Page html added
 }
 
 #packages a, #packages figure {
@@ -481,13 +464,7 @@ footer nav a:hover {
     height: 230px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 /* ============ CONTACT PAGE ================= */
-/**{
-    border: 1px solid red;
-}*/
 iframe {
     width: 100%;
     height: 600px;
@@ -518,8 +495,7 @@ iframe {
     float: right;
     padding: 5%;
 }
-=======
->>>>>>> Contact Page & Campsite Page html added
+
 
 /*===========================================================================
                         Map Page
@@ -897,12 +873,98 @@ iframe {
     text-align: center;
 }
 
+/* ============ CAMPSITE PAGE ================= */
+#campsiteDeets {
+    background-color: rgba(255,255,255, 0.8);
+    font-family: 'AbadiMT-CondensedLight';
+}
 
+#infoColumn{
+    width: 43%;
+    padding: 30px;
+    float:left;
+}
 
-<<<<<<< HEAD
-=======
->>>>>>> 0dac77679a35b7f1d53512f73efbb02836254981
->>>>>>> Contact Page & Campsite Page html added
+#purchaseColumn{
+    width: 43%;
+    padding: 30px;
+    float:right;
+}
+
+#infoColumn h2 {
+    width: 60%;
+    height: 50px;
+    float: left;
+    margin: 0;
+    color: rgb(159,206,55);
+}
+
+#ratings {
+    float: right;
+    width: 40%;
+    height: 50px;
+    text-align: right;
+}
+
+#activities img, #facilities img {
+    width: 44px;
+}
+
+#price h3, #price p {
+    display: inline-block; 
+}
+
+#description {
+    display: block;
+}
+
+#booking {
+    margin-bottom: 30px;
+}
+
+#booking p {
+    width: 30%;
+    text-align: left;
+    margin: 1%;
+    display: inline-block;
+}
+
+label, input, select {
+    display: block;
+}
+#from, #to {
+    border-radius: 5px;
+    width: 90%;
+}
+
+#booking button {
+    margin: 10px auto;
+    width: 50%;
+}
+
+#recommends h2 {
+    text-align: center;
+    color: #576C27;
+}
+.recGear {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin: 2px;
+    border: 5px solid white;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.recGear p {
+    margin: 8px;
+}
+
+.recGear label, .recGear select {
+    display: inline-block;
+}
 
 /* ==========================================================================
    Media Queries
@@ -913,6 +975,76 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
+    header {
+        height: 100px;
+    }
+
+    header nav ul li {
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: rgba(159,206,55, 0.6);
+        width: 46%;
+        margin: 1%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header nav a {
+        padding: 0;
+    }
+
+    header nav ul li:first-child, 
+    header nav ul li:nth-child(2){
+        position: absolute;
+        right: 49%;
+    }
+
+    header nav ul li:last-child,
+    header nav ul li:nth-child(4){
+        position: absolute;
+        left: 51%;
+    }
+
+    header nav ul li:first-child,
+    header nav ul li:nth-child(4){
+        top: 110px;
+    }
+
+    header nav ul li:nth-child(2),
+    header nav ul li:last-child {
+        top: 160px;
+    }
+
+    #navlogo {
+        height: 0;
+        width: 0px;
+        border: none;
+        position: absolute;
+        left: 43%;
+        top: 100px;
+        z-index: 2;
+    }
+
+    #navlogo img {
+        transform:rotate(-25deg);
+-ms-transform:rotate(-25deg); /* IE 9 */
+-moz-transform:rotate(-25deg); /* Firefox */
+-webkit-transform:rotate(-25deg); /* Safari and Chrome */
+-o-transform:rotate(-25deg); /* Opera */
+    }
+
+    .sticky{
+        position: fixed;
+        top: -100px;
+    }
+
+    #footerLogo{
+        margin-top: 60px;
+    }
+
+    footer nav {
+        height: 50px;
+    }
 
     .carttable{display: none;}
 
@@ -936,6 +1068,8 @@ iframe {
     .checkouttotal .greenbutton{
         float: none;
     }
+
+
 }
 
 @media print,
